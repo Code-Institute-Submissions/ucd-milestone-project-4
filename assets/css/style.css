@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Exo:100,200,300,400,500');
 
+/*------------------------------colors*/
+
+.ui-menu-color-home {
+    background-color: yellow;
+    font-family: 'Spicy Rice', cursive;
+    font-weight: 400;
+}
+
+.ui-menu-color-music {
+    background-color: aqua;
+    font-family: 'Spicy Rice', cursive;
+    font-weight: 400;
+}
+
+.ui-menu-color-band {
+    background-color: orange;
+    font-family: 'Spicy Rice', cursive;
+    font-weight: 400;
+}
+
+.ui-menu-color-bookings {
+    background-color: lime;
+    font-family: 'Spicy Rice', cursive;
+    font-weight: 400;
+}
+
+/*------------------------------headings*/
+
 header {
     margin: 0;
 }

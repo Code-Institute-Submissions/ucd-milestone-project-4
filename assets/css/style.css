@@ -1,29 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Exo:100,200,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Exo:100,200,300,400,500|Spicy+Rice: 100,200,300,400,500');
 
 /*------------------------------colors*/
 
 .ui-menu-color-home {
-    background-color: yellow;
-    font-family: 'Spicy Rice', cursive;
-    font-weight: 400;
+    background-color: red;
 }
 
 .ui-menu-color-music {
-    background-color: aqua;
-    font-family: 'Spicy Rice', cursive;
-    font-weight: 400;
+    background-color: pink;
 }
 
 .ui-menu-color-band {
-    background-color: orange;
-    font-family: 'Spicy Rice', cursive;
-    font-weight: 400;
+    background-color: red;
 }
 
 .ui-menu-color-bookings {
-    background-color: lime;
-    font-family: 'Spicy Rice', cursive;
-    font-weight: 400;
+    background-color: pink;
 }
 
 /*------------------------------headings*/
@@ -35,7 +27,7 @@ header {
 .logo {
     background: url(../images/Monkees_red.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     min-height: 360px;
     transition: all .5s ease-in-out;
@@ -43,3 +35,53 @@ header {
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+
+.band-pic {
+    background-image: url(../images/monkees.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 240px;
+        margin-left: o;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spicy Rice';
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+

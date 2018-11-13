@@ -76,11 +76,12 @@ header {
     padding-top: 25px;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Spicy Rice';
+    font-family: 'Spicy Rice', sans-serif;
     font-weight: 200;
     font-size: 40px;
     letter-spacing: 2px;
 }
+
 
 /*--------------------------------------------hover.css*/
 
@@ -118,7 +119,7 @@ header {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: #ffffff;
     background: red;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;

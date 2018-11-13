@@ -22,7 +22,24 @@
     background-color: pink;
 }
 
+.bg-content-color {
+    background-color: red;
+}
+
 /*------------------------------headings*/
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
 
 header {
     margin: 0;
@@ -90,6 +107,65 @@ header {
     height: 120px;
 }
 
+/*--------------------------------------------mid section various*/
+
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+
+
+
+.section-heading {
+    font-family: 'Spicy Rice', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.music-page-heading {
+    font-family: 'Spicy Rice', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.latest-release {
+    height: 30%;
+    width: auto;
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.latest-news {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.album a {
+    float: left;
+    width: 20%;
+    color: #ffffff;
+    margin-left: 10%;
+}
+
+.album a {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+
 /*--------------------------------------------paddings/margins etc*/
 
 .uppercase {
@@ -145,3 +221,13 @@ button[type="submit"] {
     background-color: red;
     color: #ffffff;
 }
+
+/*--------------------------------------------media queries*/
+
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }

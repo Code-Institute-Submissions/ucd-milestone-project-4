@@ -47,42 +47,60 @@
     
     <section class="container-fluid">
         
+        <div class="row bg-greenrow-color">
+            <div class="col-sm-12">
+                <h2 class="section-heading uppercase">We are available for bookings</h2>
+                <h3 class="uppercase">Enquire about availability here</h3>
+            </div>
+            <div class="booking-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Booking Details (Date / Venue etc.)" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Booking Request</button>
+                    <meta name="viewport" content="width=device-width, initial-scale-1">
+                </form>
+            </div>
+        </div>
+
 
     </section>
     
 <!-----------------------------------------------FOOTER WITH UPCOMING GIG DATES, A NEWSLETTER SIGN-UP AND SOCIAL MEDIA ICONS---------------------------->
     
-    <footer class="container-fluid bg-footer-color">
-        <div class="row">
-            <div class="col-sm-4 section-column">
-                <h5 class="uppercase general-sub">Upcoming Gigs</h5>
-                    <p class="inline-block general-sub">10th June - Liverpool<br>
-                    11th June - Manchester<br>
-                    12th June - Dublin</p>
-                <!--<ul class="inline-block general-sub ">
+<footer class="container-fluid bg-footer-color">
+
+    <div id="footer-info" class="row">
+        <div class="col-sm-4 col-md-4">
+            <h5 class="uppercase general-sub">Upcoming Gigs</h5>
+            <p class="inline-block general-sub">10th June - Liverpool<br> 11th June - Manchester<br> 12th June - Dublin</p>
+
+            <!--<ul class="inline-block general-sub ">
                     <li>10th June - Liverpool</li>
                     <li>11th June - Manchester</li>
-                    <li>12th June - Dublin</li>
-                </ul>-->
-            </div>
-            <div class="col-sm-4 section-column">
-                <h5 class="uppercase general-sub">Sign up to our Newsletter</h5>
-                <form class="inline-block">
-                   <input type="text" name="emailaddress" class="newsletter" id="emailaddress" placeholder="Enter email address" required/>
-                   <button type="submit" class="btn btn-danger">Sign Up</button>
-                   </form>
-            </div>
-             <div class="col-sm-4 section-column">
-                <h5 class="uppercase general-sub">Stay in touch</h5>
-                <ul class="list-inline social-links">
-                    <li><a target="_blank " href="# "><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank " href="# "><i class="fa fa-youtube"></i></a></li>
-                </ul>
-            </div>
+                    <li>12th June - Dublin</li></ul>-->
 
         </div>
-    </footer>
+
+        <div class="col-sm-4 col-md-4">
+            <h5 class="uppercase general-sub">Sign up to our Newsletter</h5>
+            <form class="inline-block">
+                <input type="text" name="emailaddress" class="newsletter" id="emailaddress" placeholder="Enter email address" required/>
+                <button type="submit" class="btn btn-danger">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="col-sm-4 col-md-4">
+            <h5 class="uppercase general-sub">Stay in touch</h5>
+            <ul class="list-inline social-links">
+                <li><a target="_blank " href="# "><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank " href="# "><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank " href="# "><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
 </body>
 
 </html>

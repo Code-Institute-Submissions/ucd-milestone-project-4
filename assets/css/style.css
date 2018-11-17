@@ -76,6 +76,8 @@ header {
     margin: 0;
 }
 
+/*--------------------------------------------HEADER IMAGES--------------------------------------*/
+
 .logo {
     background: url(../images/Monkees_red.jpg);
     background-position: center;
@@ -94,7 +96,7 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         height: 240px;
-        margin-left: o;
+        margin-left: 0;
 }
 
 #nav {
@@ -131,14 +133,14 @@ header {
 }
 
 
-/*--------------------------------------------hover.css*/
+/*--------------------------------------------hover.css-----------------------------------*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/*--------------------------------------------mid section various*/
+/*--------------------------------------------mid section various--------------------------*/
 
 .section-column {
     padding-bottom: 10px;
@@ -159,28 +161,9 @@ img {
     font-weight: 200;
     letter-spacing: 2px;
     color: #ffffff;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
-
-/*--.music-page-heading {
-    font-family: 'Spicy Rice', sans-serif;
-    font-weight: 100;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    letter-spacing: 2px;
-}--*/
-
-/*--.latest-release {
-    float: none;
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    margin: 10px;
-    display: block;
-    clear: both;
-}--*/
 
 .latest-news {
     font-family: "Exo", sans-serif;
@@ -200,27 +183,25 @@ img {
     text-decoration: none;
 }
 
-/*--.album-pic {
-    float: left;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    color: #ffffff;
-    margin-left: 10%;
-    text-align: center;
-}--*/
-
-.album-pic a {
-    float: none;
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
-    text-decoration: none;
-    color: #ffffff;
-    margin-left: 10%;
-    text-align: center;
-    padding: 30px;
+.album1-pic {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: none;
+    padding: 20px;
+    transition: all .5s ease-in-out;
 }
+
+/*----.album-pic {
+    float: none;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}---*/
+
+
 
 .button-heading {
     font-family: 'Eco', sans-serif;
@@ -233,8 +214,8 @@ img {
 
 .band-member-pic {
     float: left;
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     color: #ffffff;
     margin-left: 10%;
@@ -283,6 +264,8 @@ img {
 .inline-block {
     display: inline-block;
 }
+
+/*--------------------------------------------FOOTER STYLES-----------------------------------------------*/
 
 .social-links {
     padding-bottom: 15px;

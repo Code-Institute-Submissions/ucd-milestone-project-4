@@ -235,6 +235,15 @@ img {
     border-radius: 50%;
 }
 
+.member-name-text {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
 .info-text {
     padding-top: 20px;
 }
@@ -245,6 +254,14 @@ img {
     font-weight: 400;
     color: black;
     padding-top: 20px;
+    text-align: center;
+}
+
+.bookings-paragraph-text {
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
     text-align: center;
 }
 

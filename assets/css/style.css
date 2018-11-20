@@ -81,7 +81,7 @@ header {
     margin: 0;
 }
 
-/*--------------------------------------------HEADER IMAGES--------------------------------------*/
+/*----------------------------------------------------HEADER IMAGES*/
 
 .logo {
     background: url(../images/Monkees_red.jpg);
@@ -104,7 +104,7 @@ header {
         min-width: 100%;
 }
 
-/*--------------------------------------------navigation menu--------------------------------------*/
+/*---------------------------------------------------navigation menu*/
 
 #nav {
     margin: 0;
@@ -139,14 +139,14 @@ header {
     letter-spacing: 2px;
 }
 
-/*--------------------------------------------hover.css-----------------------------------*/
+/*--------------------------------------------------------------hover*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/*--------------------------------------------mid section various--------------------------*/
+/*---------------------------------------------------mid section various*/
 
 .section-column {
     padding-bottom: 10px;
@@ -206,13 +206,6 @@ img {
     transition: all .5s ease-in-out;
 }
 
-#vid {
-    width: 350px;
-    height: 300px;
-    float: none;
-    padding: 0;
-}
-
 .vid-row {
     text-align: center;
     float: none;
@@ -256,14 +249,6 @@ img {
     text-align: center;
 }
 
-.bookings-paragraph-text {
-    font-family: "Exo", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: black;
-    text-align: center;
-}
-
 .booking-form {
     float: none;
     padding: 0px;
@@ -271,7 +256,7 @@ img {
     max-width: 100%;
 }
 
-/*--------------------------------------------paddings/margins etc---------------------------------------*/
+/*------------------------------------------------------------paddings/margins etc*/
 
 .uppercase {
     text-transform: uppercase;
@@ -287,7 +272,7 @@ img {
     display: inline-block;
 }
 
-/*--------------------------------------------FOOTER STYLES-----------------------------------------------*/
+/*-----------------------------------------------------------FOOTER STYLES*/
 
 #footer-info {
     margin: 20px auto;
@@ -340,7 +325,7 @@ button[type="submit"] {
     color: #ffffff;
 }
 
-/*--------------------------------------------media queries------------------------------------*/
+/*-----------------------------------------------------------media queries*/
 
 @media(max-width: 767px) {
     .section-column {

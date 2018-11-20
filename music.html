@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>The Monkees Music Page</title>
@@ -10,43 +10,49 @@
     <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 
-<!-------------------------------------------logo to the left, band picture on top with four menu items underneath------------------------------------>
+<!--logo to the left, band picture on top with four menu items underneath-->
 
 <body>
     <header class="container-fluid">
         <div class="row">
             <a href="index.html">
-                <div class="col-md-4 logo"alt="Monkees logo"></div>
+                <div class="col-md-4 logo">
+                    <div role="img" aria-label="logo">
+                </div>
+                </div>
             </a>
             <div class="col-md-8">
-                <div class="row band-pic" alt="header band image">
+                <div class="row band-pic">
+                    <div role="img" aria-label="band image">
+                        </div>
                 </div>
 
-                <!--menu items-->
+<!--menu items-->
 
                 <div class="row">
                     <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-home menuitem" alt="menu button home">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><span>Home</span></a>
+                        <li class="col-xs-6 col-sm-3 ui-menu-color-home menuitem">
+                            <a href="index.html" class="hvr-sweep-to-bottom"><span role="img" aria-label="menu button home">Home</span></a>
                         </li>
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-music menuitem" alt="menu button music">
-                            <a href="music.html" class="hvr-sweep-to-bottom"><span>Music</span></a>
+                        <li class="col-xs-6 col-sm-3 ui-menu-color-music menuitem">
+                            <a href="music.html" class="hvr-sweep-to-bottom"><span role="img" aria-label="menu button music">Music</span></a>
                         </li>
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-band menuitem" alt="menu button band">
-                            <a href="band.html" class="hvr-sweep-to-bottom"><span>Band</span></a>
+                        <li class="col-xs-6 col-sm-3 ui-menu-color-band menuitem">
+                            <a href="band.html" class="hvr-sweep-to-bottom"><span role="img" aria-label="menu button band">Band</span></a>
                         </li>
-                        <li class="col-xs-6 col-sm-3 ui-menu-color-bookings menuitem" alt="menu button book us">
-                            <a href="bookings.html" class="hvr-sweep-to-bottom"><span>Book Us</span></a>
+                        <li class="col-xs-6 col-sm-3 ui-menu-color-bookings menuitem">
+                            <a href="bookings.html" class="hvr-sweep-to-bottom"><span role="img" aria-label="menu button book us">Book Us</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
--------------------mid section with ROWS CONSISTING OF ALBUM PIC, NAME OF SONG, CLICK TO PLAY BUTTON AND SONG INFO----------------------------------->
+    
+<!--mid section with ROWS CONSISTING OF ALBUM PIC, NAME OF SONG, CLICK TO PLAY BUTTON AND SONG INFO-->
 
     <section class="container-fluid">
-        <div class="row  bg-yellowrow-color">
+        <div class="row bg-yellowrow-color">
             <h2 class="section-heading uppercase">Give these tunes a spin.</h2>
         </div>
 
@@ -60,7 +66,7 @@
                 <div class="general-sub ">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 ">
                         <h3>"Last Train Clarkesville"</h3><br>
-                        <button type="button " class="btn btn-default "><a href="assets/audio/Clarksville.mp3" target="_blank" alt="audio button">Click to listen</a></button>
+                        <a href="assets/audio/Clarksville.mp3" target="_blank" class="btn btn-default">Click to listen</a>
                         <p class="paragraph-text general-sub ">Released on August 16th 1966, this was the debut single by The Monkees. The song topped the Billboard Hot 100 on November 5th 1966.</p>
                     </div>
                 </div>
@@ -77,7 +83,7 @@
                 <div class="general-sub ">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 ">
                         <h3>"I 'm a Believer"</h3><br>
-                        <button type="button" class="btn btn-default"><a href="assets/audio/ImABeliever.mp3" target="_blank" alt="audio button">Click to listen</a> </button>
+                        <a href="assets/audio/ImABeliever.mp3" target="_blank" class="btn btn-default">Click to listen</a>
                         <p class="paragraph-text general-sub">Written by Neil Diamond, this song was a Number 1 hit for The Monkees in 1966.</p>
                     </div>
                 </div>
@@ -94,7 +100,7 @@
                 <div class="general-sub">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
                         <h3>"Daydream Believer"</h3><br>
-                        <button type="button" class="btn btn-default"><a href="assets/audio/DaydreamBeliever.mp3" target="_blank" alt="audio button">Click to listen</a> </button>
+                        <a href="assets/audio/DaydreamBeliever.mp3" target="_blank" class="btn btn-default">Click to listen</a>
                         <p class="paragraph-text general-sub">This single reached No. 1 for The Monkees in the U.S. Billboard Hot 100 chart in December 1967.</p>
                     </div>
                 </div>
@@ -111,7 +117,7 @@
                 <div class="general-sub">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
                         <h3>"Stepping Stone"</h3><br>
-                        <button type="button" class="btn btn-default"><a href="assets/audio/SteppingStone.mp3" target="_blank" alt="audio button">Click to listen</a> </button>
+                        <a href="assets/audio/SteppingStone.mp3" target="_blank" class="btn btn-default">Click to listen</a>
                         <p class="paragraph-text general-sub">Released in November 1966, this track became the first Monkees B-side to chart.</p>
                     </div>
                 </div>
@@ -119,37 +125,36 @@
         </div>
     </section>
 
-<!-----------------------------------------------FOOTER WITH UPCOMING GIG DATES, A NEWSLETTER SIGN-UP AND SOCIAL MEDIA ICONS---------------------------->
+<!--FOOTER WITH UPCOMING GIG DATES, A NEWSLETTER SIGN-UP AND SOCIAL MEDIA ICONS-->
 
     <footer class="container-fluid bg-footer-color">
-
-    <div id="footer-info" class="row">
-        <div class="col-sm-4 col-md-4">
-            <h5 class="uppercase general-sub">Upcoming Gigs</h5>
-            <p class="inline-block footer-sub">10th June - Liverpool<br> 11th June - Manchester<br> 12th June - Dublin</p>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-            <h5 class="uppercase general-sub">Sign up to our Newsletter</h5>
-            <form class="inline-block newsletter">
-                <form action="#">
+        
+            <div id="footer-info" class="row">
+            <div class="col-sm-4 col-md-4">
+                <h5 class="uppercase general-sub">Upcoming Gigs</h5>
+                <p class="inline-block footer-sub">10th June - Liverpool<br> 11th June - Manchester<br> 12th June - Dublin</p>
+            </div>
+            
+            <div class="col-sm-4 col-md-4">
+                <h5 class="uppercase general-sub">Sign up to our Newsletter</h5>
+                <form class="inline-block newsletter" action="#">
                         <input type="email" name="emailaddress" placeholder="Enter Email Address" required>
-                        <input type="submit" class="btn-danger" value="Sign up" onclick="alert('Thank You! You have signed up to our Newsletter.')" alt="sign up button">
+                        <input type="submit" class="btn-danger" value="Sign up" onclick="alert('Thank You! You have signed up to our Newsletter.')">
                     </form>
-            </form>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-            <h5 class="uppercase general-sub">Stay in touch</h5>
-            <ul class="list-inline social-links">
-                <li><a target="_blank" href="# "><i class="fa fa-facebook" alt="facebook icon"></i></a></li>
-                <li><a target="_blank" href="# "><i class="fa fa-twitter" alt="twitter icon"></i></a></li>
-                <li><a target="_blank" href="# "><i class="fa fa-youtube" alt="youtube icon"></i></a></li>
-            </ul>
-        </div>
-    </div>
-
-</footer>
+            </div>
+            
+            <div class="col-sm-4 col-md-4">
+                <h5 class="uppercase general-sub">Stay in touch</h5>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/TheMonkees"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        
+    </footer>
+    
 </body>
 
 </html>

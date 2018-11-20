@@ -206,16 +206,16 @@ img {
     transition: all .5s ease-in-out;
 }
 
-.vid {
+#vid {
     width: 350px;
-    height: 250px;
+    height: 300px;
     float: none;
     padding: 0;
 }
 
 .vid-row {
     text-align: center;
-    float: center;
+    float: none;
     padding-bottom: 20px;
 }
 

@@ -18,7 +18,7 @@ I split the Home Page into two sections: Latest Release section to display the b
 In the footer, I put a list of upcoming tour dates, a newsletter for the user to sign up to, and social media links. 
 The Music Page shows album covers and provides a way for the user to listen to the band's music. Again, header and footer are the same.
 The Band Page has a picture of each band member along with an image of the instrument they played in the band, followed by a brief bio on each member. Again, header and footer are the same.
-The Book Us Page plays a video of the band and displays a booking form for the user to enter their details and enquire about potential dates. Again, header and footer are the same.
+The Book Us Page plays a video of the band after clicking the button, and displays a booking form for the user to enter their details and enquire about potential dates. Again, header and footer are the same.
 
 ## Features
 ### Existing Features
@@ -27,7 +27,7 @@ The Book Us Page plays a video of the band and displays a booking form for the u
 - Newsletter Sign Up: In the footer, I put an input box for the user to put their email address and a submit button to sign up to the bands newsletter.
 - Social Media Icons: Once clicked, the user will be brought to the associated Social Media Page.
 - Audio Display: On the "Home" page and the "Music" page, under the pictures of the band are "Click to listen" buttons where the user can listen to music. A new page will open playing the song on an audio player.
-- Video Display: On arriving at the "Book Us" page, a video of the band playing "Daydream Believer" plays. A pause button is displayed on the video for the user to pause the music any time.
+- Video Display: On arriving at the "Book Us" page, a button to play a video of the band playing "Daydream Believer" is available to click. A pause button is displayed on the video for the user to pause the music any time.
 - Booking Form: In the "Book Us" page, the user can leave a booking enquiry for the band along with their name and email address.
 
 ### Features Left to Implement
@@ -36,7 +36,7 @@ The Book Us Page plays a video of the band and displays a booking form for the u
 - add a store for merchandise.
 
 ## Technologies Used
-- Bootstrap (getbootstrap.com): For the Grid System, Responsive actions and buttons across the site.
+- Bootstrap (getbootstrap.com): For the Grid System and buttons across the site.
 - Hover(ianlunn.github.io/Hover/): I used "sweep to bottom" hover on the menu items.  When the user hovers over a menu item, a transparent shade sweeps down over the selection to highlight what the user is about to select.  Also used on Social Media icons in the Footer.
 - Google Fonts: I used "Spicy Rice" font on the menu headings and page headings to create a fun 60's vibe.  I used "Exo" font (with sans-serif backup) on everything else for easy reading.
 - Font Awesome(fontawesome.com): For Social Media icons in the footer.
@@ -51,6 +51,7 @@ The Book Us Page plays a video of the band and displays a booking form for the u
 ## Deployment
 
 ## Credits
+code institute tutors
 
 ### Content
 The information on band members and music came from Wikipedia.

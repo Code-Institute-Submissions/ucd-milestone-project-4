@@ -89,7 +89,7 @@ Other Testing...
 - I tried using "hvr-radial-out" instead of "hvr-sweep-to-bottom" but the colour of the button stayed blue. After trying various ways of trying to get around this, I decided to stay with "sweep-to-bottom".
 
 ## Deployment
-
+I deployed my project using Github Pages. From my repository, I selected "Settings" and scrolled down to Github Pages. I clicked on the "Source" drop-down menu and selected "Master Branch" then clicked "Save". I then received the link to my website and copied it. I pasted the link into the top of my repository along with a short description of the project. I clicked on the link and did more testing of my site and everything is working.
 ## Credits
 ### Content
 The information on band members and music came from Wikipedia.com.

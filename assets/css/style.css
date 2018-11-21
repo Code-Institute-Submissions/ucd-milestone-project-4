@@ -318,13 +318,6 @@ img {
     margin:0px;
 }
 
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: red;
-    color: #ffffff;
-}
-
 /*-----------------------------------------------------------media queries*/
 
 @media(max-width: 767px) {

@@ -18,13 +18,13 @@ I used these "mock-ups" for planning the website (all of these files are in the 
 
 I split the Home Page into two sections: Latest Release section to display the bands most up to date musical release and the Latest News section for the user to see the latest news headings about the band.
 
-In the footer, I put a list of upcoming tour dates, a newsletter for the user to sign up to, and social media links for the user to follow the band on these platforms. So, in the header and footer on every page, a picture of the band is displayed, notification of upcoming gigs are shown and the user has a variety of ways to stay in touch with current happenings of the band.
+In the footer, I put a list of upcoming tour dates, a newsletter for the user to sign up to, and social media links for the user to follow the band on these platforms. 
 
-The Music Page shows four album/single covers and provides a way for the user to listen to the band's music. This showcases the band's music by allowing the user to listen to audio tracks and the text gives an insight into each one.
+The Music Page shows four album/single covers and provides a way for the user to listen to the band's music. 
 
-The Band Page has a picture of each band member along with an image of the instrument they played in the band, followed by a brief bio on each member. This should satisfy the band as they requested pictures be shown of them. The user fan would also be interested in seeing the band member pictures along with a short bio.
+The Band Page has a picture of each band member along with an image of the instrument they played in the band, followed by a brief bio on each member. 
 
-The Book Us Page shows a picture of the cover of an album and plays a video of the band after clicking the button. For potential bookings, a booking form is available for the user to enter their details and enquire about potential dates. Above the booking form, a statement saying that the band are available for Christmas parties and Weddings should also satisfy the request of the band.
+The Book Us Page shows a picture of the cover of an album and plays a video of the band after clicking the button. For potential bookings, a booking form is available for the user to enter their details and enquire about potential dates. 
 
 ## Features
 ### Existing Features
@@ -51,63 +51,35 @@ The Book Us Page shows a picture of the cover of an album and plays a video of t
 As per my primary targets above:
 
 1. The current fan instantly relates to the Monkees logo and band image. The colourful menu items adds a bit of fun to the experience and clearly lays out what the websites has to offer.
- - New material & News is on the Home page, the first page the user encounters.
- - Click on Music menu item and the user can see pictures and hear music from the band.
- - Click on Book Us menu item for booking enquiries and a video of the band playing.
- - On every page, the user can see when the band are playing live and follow them on social media.
+ This user will find new material, band news, tour dates, pictures, audio and video from the band. They also have the option to follow the band on social media.
 
 2. A potential fan is instantly hit with current music from the band and latest news items. 
- - The menu items clearly display what the potential fan might want to know.
- - Click on Music, they can see what music they have to offer.
- - Click on Band, they can find out more about the band members and see what they look like.
 
-3. The owners of the site, the band, have their requests satisfied also.
- - On the home page, an image of the band and their logo is displayed. Their latest release is showcased. Their upcomings gigs are advertised and Social Media icons are displayed.
- - Click on Music and they will find their music with a "listen" button to showcase their music to anyone who wants to listen.
- - Click on Band and band member images are displayed along with a short bio on each.
- - Click on Book Us and a video is available to watch along with a booking form with a heading telling potential booking agents that they are available for Christmas Parties and Weddings (as requested).
+3. The owners of the site, the band, have their requests satisfied also.  Their music is showcased, pictures of the band are on it and their availability for parties and weddings is made clear.
 
-4. Booking agents can see on the Home Page that the band are currently playing shows by the information in "Latest News" and information in the footer.
- - This user can clearly see the "Book Us" menu item calling out to them to click it.
- - When they click the "Book Us" menu item they are brought to a page where a booking form is displayed.
- - The user can fill out the booking form and if it is filled in properly, the user will get reassurance via a new page opening with a thank you message and that the band will be in touch.
+4. Booking agents can see on the Home Page that the band are currently playing shows and on the "Book Us" page they can enquire about bookings for the band.
 
-5. Music Publishers and Project Supervisors will instantly see the "Music" menu button on arriving at the website.
- - Click on Music menu item and the user is brought to a page showcasing a selection of the band smore popular songs
- - Click on the "listen" buttons underneath each song heading and the user can listen to the audio of the tracks in a new window.
- - Click on "Book Us" menu item and the user will find a booking form where they can submit an enquiry.
+5. Music Publishers and Project Supervisors will instantly see the "Music" menu button on arriving at the website and can contact the band through social media or the booking form.
 
-Other Testing...
+### Other Testing...
 
-- Page Navigation: Page menu across all pages.  The Monkees logo on top also brings the user to the Home page. All working and complete.
-- Social Media icons: Clicking on each will bring the user to the associated Social Media Pages. All working and complete.
-- Audio Clips: When "Click to listen" button is clicked, a new page opens with audio player playing the music clip. (used target="_blank") All working and complete.
-- Video Clips: Click on a button to play a video of the band playing "Daydream Believer".  Can pause it by clicking on the video screen. All working and complete.
-- Booking Form: On "Book Us" page and has input boxes for name, email and enquiry text. I created a PDF to Pop-up on a new screen to reassure the user after button is clicked. I put "required" in my code for invalid input fields.
-- Newsletter sign-up: when user enters email address and click the button, a new screen appears to reassure the user that they have signed up to the newsletter. I put "required" in my code for invalid input fields.
-- Alt for images: The "alt" attribute for the images in the anchor or div tags would not validate in the HTML Validator so I checked around and found on "stackoverflow.com" that I could use 'role=""" aria-label=""'.
-- I tried using "hvr-radial-out" instead of "hvr-sweep-to-bottom" but the colour of the button stayed blue. After trying various ways of trying to get around this, I decided to stay with "sweep-to-bottom".
+Google Chrome in Mobile, iPad and Desktop.  
+Safari.  
 
 ## Deployment
-I deployed my project using Github Pages. From my repository, I selected "Settings" and scrolled down to Github Pages. I clicked on the "Source" drop-down menu and selected "Master Branch" then clicked "Save". I then received the link to my website and copied it. I pasted the link into the top of my repository along with a short description of the project. I clicked on the link and did more testing of my site and everything is working.
+This has been deployed through Github Pages.
 ## Credits
 ### Content
 The information on band members and music came from Wikipedia.com.
 
 ### Media
-The band logo from bandlogojukebox.com
-
-Microphone and Bass logos from thnenounproject.com
-
-Drum and Guitar logos from thnenounproject.com
-
-Band and album images supplied by code institute.
-
-video supplied by code institute.
+The band logo from bandlogojukebox.com  
+Microphone and Bass logos from thnenounproject.com  
+Drum and Guitar logos from thnenounproject.com  
+Band and album images supplied by code institute.  
+Video supplied by code institute.
 
 ### Acknowledgements
-Code institute tutorials.
-
-W3schools.com
-
+Code institute tutorials.  
+W3schools.com  
 stackoverflow.com

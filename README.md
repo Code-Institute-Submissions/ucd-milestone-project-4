@@ -14,7 +14,12 @@ The primary targets of this website are current and potential fans of The Monkee
 
 Working with "mobile-first" in mind, I decided to go with the format discribed in the "Resume Lesson" where the logo is on top, followed by a picture of the band, followed by a colourful menu for four pages. 
 I used the colours from the cover of the band's "Best Of" album, red, yellow, green and pink along with a funky font for the headings to create an authentic 60's display.
-I used these "mock-ups" for planning the website (all of these files are in the mock ups folder of my project): mobileHeaderFooterMockUp.jpeg,  DesktopHeaderFooterMockUp.jpeg, HomeSectionMockUp.jpeg, MusicAndBandSectionsMockUps.jpeg, BookingsSectionMockUps.jpeg 
+I used these "mock-ups" for planning the website (all of these files are in the mock ups folder of my project): 
+mobileHeaderFooterMockUp.jpeg,  
+DesktopHeaderFooterMockUp.jpeg,  
+HomeSectionMockUp.jpeg,  
+MusicAndBandSectionsMockUps.jpeg,  
+BookingsSectionMockUps.jpeg 
 
 I split the Home Page into two sections: Latest Release section to display the bands most up to date musical release and the Latest News section for the user to see the latest news headings about the band.
 
